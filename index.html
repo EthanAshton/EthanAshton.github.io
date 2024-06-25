@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <meta charset="UFT-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  
+</head>
+
+<body>
+
+  <div class="header">
+
+    <div class="titlepic"> 
+      <img class="pic1" src="pics/titlepic.jpg"></img>
+    </div>
+
+    <div class="phrasething"> WHERE SMILES BOUNCE HIGHER!
+    </div>
+
+    <div class="instagram"> 
+      <img onclick="openig()" class="instapic" src="pics/IMG_1666.jpeg">
+      <br>
+      <img onclick="openfb()" class="instapic" src="pics/IMG_1667.jpeg">
+    </div>
+
+
+    <div class="dropdowns">
+
+      <div class="options" id="home" onclick="homefunction()"> HOME </div>
+
+      <div class="options" id="au" onclick="aufunction()"> ABOUT US </div>
+
+      <div class="options" id="au" onclick="cufunction()"> CONTACT US </div>
+
+      <div class="options" id="au" onclick="bnfunction()"> BOOK NOW           </div>
+
+      <div class="options" id="au" onclick="pgfunction()"> PHOTO GALLARY
+      </div>
+      
+
+    </div>
+   
+  </div>
+
+
+
+  
+
+  <div id="ssid" class="slideshow-container">
+
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="pics/slide1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="pics/slide2.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="pics/slide3.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="pics/slide4.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="pics/slide5.jpeg" style="width:100%">
+    </div>
+
+    
+    <a id="prev" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a id="next" class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+
+  <div id="dots" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+  <div id="auclick" class= "nonaboutus">
+        Welcome to where fun and excitement are just a bounce away! 🎉
+        <br><br>
+        Our bouncy castles transform any event into a joyful adventure. From classic designs to themed wonders like pirate ships, our inflatables spark imagination and laughter. Safety is our priority, with top-quality materials and regular inspections.
+        <br><br>
+        Our friendly team handles setup and takedown, so you can enjoy the party stress-free. With packages to fit any budget, adding a bounce to your celebration has never been easier.
+       <br><br>
+        Ready, set, bounce!
+  </div>
+ 
+  <div id="cuclick" class="noncontactus">
+    <br> <br> 
+    Call us at: (123) 555-5555
+    <br><br> 
+    Email us at: notarealemail@address.com
+    <br><br>
+    Follow us on Instagram: @ourig
+    <br><br> 
+    Follow us on Facebook: ourfb
+  </div>
+
+  <div id="bnclick" class="nonbooknow">
+    <br>
+    Reserve your spot now!
+    <br><br>
+    <p class="opengoogle" onclick="opengoogle()">
+      <span class="material-symbols-outlined">
+        calendar_month
+        </span>
+      Click here for our Google calendar! 
+    <span class="material-symbols-outlined">
+    calendar_month
+    </span>
+    </p>
+  </div>
+
+  <div id="pgclick" class="nonphotogallary">
+    <div class="gallpic"> <img class="gallpic"src="pics/slide1.jpeg"></img></div>
+    
+    <div class="gallpic"> <img class="gallpic"src="pics/slide2.jpeg"></img></div>
+
+    <div class="gallpic"> <img class="gallpic"src="pics/slide3.jpeg"></img></div>
+
+    <div class="gallpic"> <img class="gallpic"src="pics/slide4.jpeg"></img></div>
+
+    <div class="gallpic"> <img class="gallpic"src="pics/slide5.jpeg"></img></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
